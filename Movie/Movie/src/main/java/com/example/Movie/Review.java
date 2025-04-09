@@ -5,9 +5,9 @@ public class Review {
     private Long id;
     private String text;
     private Long userId;
-    private int rating;
+    private float rating;
 
-    public Review(Long id, String text, Long userId, int rating) {
+    public Review(Long id, String text, Long userId, float rating) {
 
         this.id = id;
         this.text = text;
@@ -39,11 +39,11 @@ public class Review {
         this.userId = userId;
     }
 
-    public int getRating() {
+    public float getRating() {
         return rating;
     }
 
-    public void setRating(int rating) {
+    public void setRating(float rating) {
         this.rating = rating;
     }
 }

@@ -4,11 +4,11 @@ public class Statistics {
 
     private Long id;
     private Long movieId;
-    private Integer rating;
+    private float rating;
     private Integer releaseYear;
     private Integer totalGrossing;
 
-    public Statistics(Long id, Long movieId, Integer rating, Integer releaseYear, Integer totalGrossing) {
+    public Statistics(Long id, Long movieId, float rating, Integer releaseYear, Integer totalGrossing) {
         this.id = id;
         this.movieId = movieId;
         this.rating = rating;
@@ -32,11 +32,11 @@ public class Statistics {
         this.movieId = movieId;
     }
 
-    public Integer getRating() {
+    public float getRating() {
         return rating;
     }
 
-    public void setRating(Integer rating) {
+    public void setRating(float rating) {
         this.rating = rating;
     }
 

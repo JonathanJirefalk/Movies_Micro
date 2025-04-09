@@ -13,7 +13,7 @@ public class Review {
     private Long movieId;
     private String text;
     private Long userId;
-    private Integer rating;
+    private float rating;
 
     public Review() {
     }
@@ -50,11 +50,11 @@ public class Review {
         this.userId = userId;
     }
 
-    public Integer getRating() {
+    public float getRating() {
         return rating;
     }
 
-    public void setRating(Integer rating) {
+    public void setRating(float rating) {
         this.rating = rating;
     }
 }

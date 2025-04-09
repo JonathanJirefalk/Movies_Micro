@@ -9,7 +9,7 @@ public class Statistics {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private Long movieId;
-    private Integer rating;
+    private float rating;
     private Integer releaseYear;
     private Integer totalGrossing;
 
@@ -33,11 +33,11 @@ public class Statistics {
         this.movieId = movieId;
     }
 
-    public Integer getRating() {
+    public float getRating() {
         return rating;
     }
 
-    public void setRating(Integer rating) {
+    public void setRating(float rating) {
         this.rating = rating;
     }
 
