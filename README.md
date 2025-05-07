@@ -2,6 +2,9 @@ Guide till att testa program!!!
 
 Använd postman med (get, post, put och delete)
 
+I application properties så står password just nu som "yourpassword", så ändra det till vilket lösenord du nu har på dina databsaer :)
+
+
 
 Användning av "Movies"
 
